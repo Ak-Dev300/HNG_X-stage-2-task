@@ -1,0 +1,27 @@
+#movieCard{
+    /* height: 450px; */
+    width: 100%;
+    /* background-color: aqua; */
+    color: white;
+    transition: all ease 0.4s;
+}
+
+#movieCard:hover{
+    transform: scale(1.1);
+}
+
+#movieCard img{
+    width: 100%;
+}
+
+#movieCard p{
+    color: #9CA3AF;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#movieCard h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}

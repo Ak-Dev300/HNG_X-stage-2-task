@@ -1,0 +1,49 @@
+#highlight{
+    height: 800px;
+    width: 100%;
+}
+
+#highlight-div{
+    height: 100%;
+    width: 650px;
+    z-index: 99999;
+    position: absolute;
+    background-color: transparent;
+    top: 30vh;
+    left: 98px;
+}
+
+#highlight-title{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+#highlight-overview{
+    line-height: 25px;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#highlight-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BE123C;
+}
+
+
+
+
+#highlight-img{
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    position: absolute;
+    object-fit: center;
+    image-rendering: optimizeQuality;
+    filter: brightness(50%);
+}
